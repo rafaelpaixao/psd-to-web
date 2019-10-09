@@ -1,9 +1,17 @@
+[Demo](https://psdtoweb.herokuapp.com)
+
+
+### Setup:
+```
 pipenv install
+```
 
-
-Dump data:
+### Dump data:
+```
 python manage.py dumpdata auth.user exemplo.card exemplo.slide > db.json
+```
 
-
-Load data:
+### Load data:
+```
 python manage.py loaddata db.json
+```
